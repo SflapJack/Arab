@@ -1217,7 +1217,7 @@ ownerklanr_id = 5540109674
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerklanr_id :
-        order = await event.reply('اهلا مطوري ارثر - @IQTHON')
+        order = await event.reply('اهلا مطوري ارثر - @R8RRR5')
 @iqthon.on(admin_cmd(pattern="تفاعلات(?: |$)(.*)"))
 async def iq(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
